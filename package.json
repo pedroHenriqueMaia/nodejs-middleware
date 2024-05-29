@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-middleware",
+  "version": "1.0.0",
+  "description": "Este projeto tem como objetivo demonstrar a criação e utilização de diferentes tipos de middlewares em uma aplicação Node.js utilizando o framework Express. Middlewares são funções intermediárias que processam as requisições antes de chegarem às rotas finais, permitindo adicionar funcionalidades como autenticação, tratamento de erros, parsing de corpo, compressão de respostas, entre outros.",
+  "author": "Pedro Henrique Maia",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "ISC"
+}
